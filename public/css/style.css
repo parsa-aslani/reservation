@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "vazir";
+  src:
+    url("../fonts/Vazir.woff"), url("../fonts/Vazir.woff2"),
+    url("../fonts/Vazir-Medium.eot");
+  font-weight: 700;
+  font-style: normal;
+}
+.icon {
+  font-family: fantasy !important;
+  line-height: 1rem !important;
+}
+body {
+  font-family: "vazir" !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  background-color: rgb(44, 47, 51);
+}
+.Toastify__toast {
+  font-family: "vazir" !important;
+}
