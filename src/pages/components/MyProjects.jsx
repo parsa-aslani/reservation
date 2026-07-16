@@ -3,8 +3,7 @@ import MyPProjectCards from "./MyProjecyCards";
 import { useEffect, useState } from "react";
 import { CustomDivider } from "../../components";
 // mui
-import { Alert, Card, CardContent, Grid, useTheme } from "@mui/material";
-import { grey } from "@mui/material/colors";
+import { Alert, Card, CardContent, Grid } from "@mui/material";
 // react icons
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 // set jsx

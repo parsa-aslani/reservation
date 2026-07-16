@@ -4,7 +4,6 @@ import { myprojectsdata } from "../../const/myprojectsdata";
 import {
   Box,
   Card,
-  CardActionArea,
   CardContent,
   CardMedia,
   Divider,

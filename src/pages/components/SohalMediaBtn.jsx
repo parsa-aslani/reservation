@@ -1,9 +1,6 @@
 // import
 // mui
 import { Button } from "@mui/material";
-// react icons
-import { FaGithub } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 // set jsx
 const SohalMediaBtn = ({ name, icon, color1, color2, url }) => {
   return (

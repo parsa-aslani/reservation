@@ -3,7 +3,6 @@ import MySkill from "./MySkill";
 import { useEffect, useState } from "react";
 import { devSkill } from "../../const/skill";
 // mui
-import { Grid } from "@mui/material";
 import skillValue from "../../common/skillValue";
 // set jsx
 const AboutSkills = () => {

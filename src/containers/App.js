@@ -27,7 +27,7 @@ function App() {
   const preferstheme = useMediaQuery("(prefers-color-scheme: dark)");
   useEffect(() => {
     setmode(preferstheme ? "dark" : "light");
-  }, []);
+  }, [setmode]);
   // control drawer
   const theme = useTheme();
   const isMdUp = useMediaQuery(theme.breakpoints.up("md"));
