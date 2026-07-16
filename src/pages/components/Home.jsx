@@ -1,6 +1,6 @@
 // import
 import forestanime from "../../assets/image/digital-art-style-river-nature-landscape-min.jpg";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useMemo } from "react";
 // mui
 import { Box, Typography } from "@mui/material";
 // typed js
@@ -13,11 +13,14 @@ import { stars } from "../../const/particles";
 const Home = () => {
   const nameEl = useRef(null);
   const infoEl = useRef(null);
-  const strings = [
-    "من یک برنامه نویس هستم",
-    "من یک طراح وب هستم",
-    "من یک توسعه دهنده فرانت اند هستم",
-  ];
+  const strings = useMemo(
+    () => [
+      "من یک برنامه نویس هستم",
+      "من یک طراح وب هستم",
+      "من یک توسعه دهنده فرانت اند هستم",
+    ],
+    [],
+  );
   useEffect(() => {
     const typename = new Typed(nameEl.current, {
       strings: ["پارسا اصلانی"],
@@ -39,7 +42,7 @@ const Home = () => {
       typename.destroy();
       typeinfo.destroy();
     };
-  }, []);
+  }, [strings]);
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);

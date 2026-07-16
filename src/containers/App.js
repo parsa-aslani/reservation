@@ -27,7 +27,7 @@ function App() {
   const preferstheme = useMediaQuery("(prefers-color-scheme: dark)");
   useEffect(() => {
     setmode(preferstheme ? "dark" : "light");
-  }, [setmode]);
+  }, [setmode, preferstheme]);
   // control drawer
   const theme = useTheme();
   const isMdUp = useMediaQuery(theme.breakpoints.up("md"));
@@ -60,18 +60,18 @@ function App() {
           <Sidebar />
         </SidebarContainer>
         <PagesContainer>
-            <PagePanel pagenumber={pagenumber} index={0}>
-              <Home />
-            </PagePanel>
-            <PagePanel pagenumber={pagenumber} index={1}>
-              <AboutMe />
-            </PagePanel>
-            <PagePanel pagenumber={pagenumber} index={2}>
-              <MyProjects />
-            </PagePanel>
-            <PagePanel pagenumber={pagenumber} index={3}>
-              <ConectMe />
-            </PagePanel>
+          <PagePanel pagenumber={pagenumber} index={0}>
+            <Home />
+          </PagePanel>
+          <PagePanel pagenumber={pagenumber} index={1}>
+            <AboutMe />
+          </PagePanel>
+          <PagePanel pagenumber={pagenumber} index={2}>
+            <MyProjects />
+          </PagePanel>
+          <PagePanel pagenumber={pagenumber} index={3}>
+            <ConectMe />
+          </PagePanel>
         </PagesContainer>
       </MainLayout>
     </MainContext.Provider>

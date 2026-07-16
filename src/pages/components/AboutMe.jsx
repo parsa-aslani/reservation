@@ -2,7 +2,7 @@
 import bugMugIcon from "../../assets/image/bugmug.png";
 import AboutPanel from "./AboutPanel";
 import SohalMediaBtn from "./SohalMediaBtn";
-import { CustomDivider, MyExperiences } from "../../components/index";
+import { CustomDivider } from "../../components/index";
 import AboutSkills from "./AboutSkills";
 // mui
 import { Box, Card, CardContent, Avatar, Grid } from "@mui/material";
