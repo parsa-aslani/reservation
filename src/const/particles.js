@@ -5,7 +5,7 @@ export const stars = {
   },
   particles: {
     number: {
-      value: 380,
+      value: 150,
       density: {
         enable: true,
         value_area: 789.1476416322727,

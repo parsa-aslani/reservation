@@ -1,7 +1,7 @@
-import vocabloImage from "../assets/image/vocabloo.png";
-import weatherImage from "../assets/image/weather.png";
-import carShopImage from "../assets/image/carShop.png";
-import findJobImage from "../assets/image/findJob.png";
+import vocabloImage from "../assets/image/vocabloo.jpg";
+import weatherImage from "../assets/image/weather.jpg";
+import carShopImage from "../assets/image/carShop.jpg";
+import findJobImage from "../assets/image/findJob.jpg";
 export const myprojectsdata = [
   {
     title: "وب اپلیکیشن اب و هوا شناسی",

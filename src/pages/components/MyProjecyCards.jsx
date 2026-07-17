@@ -36,13 +36,14 @@ const MyPProjectCards = ({ loading }) => {
                 component="img"
                 image={myproject.image}
                 alt={myproject.title}
+                sx={{height:180}}
               />
               <CardContent>
-                <Typography variant="h5" color="textPrimary" sx={{ mb: 1.5 }}>
+                <Typography variant="h6" color="textPrimary" sx={{ mb: 1.5 }}>
                   {myproject.title}
                 </Typography>
                 <Divider />
-                <Box sx={{ height: 75, mt: 1 }}>
+                <Box sx={{ height: 85, mt: 1 }}>
                   <Typography variant="caption" color="textDisabled">
                     {myproject.info}
                   </Typography>
